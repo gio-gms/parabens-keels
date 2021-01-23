@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="Keels.jpg" type="image/x-icon"/>
+
+
+    <title>Raquel Correia | Portfólio</title>
+
+</head>
+
+<body>
+  <script src="jquery-3.3.1.min.js"></script>
+  <link href="bootstrap.css" rel="stylesheet" />
+  <script src="bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+
+
+<div class="container">
+
+  <img class="home" src="home.png" alt="">
+  <img class="selo" src="2021.png" alt="">
+  <div class="line"></div>
+
+
+  <div class="main">
+
+      <a href="https://www.behance.net/keelscorreia" target="_blank">
+      <h1 class="Behance">Behance</h1>
+      </a>
+
+      <a href="https://www.instagram.com/arteirakeels/" target="_blank">
+      <h1 class="insta">Instagram</h1>
+      </a>
+
+      <a href="sobre.html">
+      <h1 class="sobre">Sobre</h1>
+      </a>
+
+      <a href="contato.html">
+      <h1 class="contato">Contato<h1>
+      </a>
+
+  </div>
+
+
+  <h2 class="">RCS</h2>
+
+</div>
+
+
+
+</body>
+<style>
+
+body{
+    background-color: rgb(241, 233, 222);
+}
+
+
+.home{
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  position: fixed;
+  width: 70%;
+}
+
+
+.line{
+  background-color: black;
+  height: 1px;
+  width: 60%;
+  right: 0px;
+  bottom: 6%;
+  left: 0px;
+  margin: auto;
+  position: fixed;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  bottom: 7%;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  position: fixed;
+  width: 65%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'allright';
+    font-size: 28pt;
+    color: black;
+    margin: 0px;
+}
+
+
+.selo {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 90px;
+    animation-name: rotate;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}
+
+h2 {
+    text-align: center;
+    font-family: 'allright';
+    font-size: 24pt;
+    color: black;
+    margin: 0px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+
+@font-face {
+    font-family: 'allright';
+    src: url('allright.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container-bar {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:800px) {
+  h1 {
+    font-size: 10pt;
+  }
+  .line{
+    width: 70%;
+  }
+  .selo{
+    width: 60px;
+  }
+
+  .home{
+    width: 90%;
+  }
+
+
+  h2 {
+      text-align: center;
+      font-family: 'allright';
+      font-size: 12pt;
+      color: black;
+      margin: 0px;
+      position: fixed;
+      top: 30px;
+      left: 30px;
+  }
+
+}
+
+</body>
+</html>

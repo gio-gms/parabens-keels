@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="Keels.jpg" type="image/x-icon"/>
+
+
+    <title>contato | Raquel Correia</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <script src="jquery-3.3.1.min.js"></script>
+  <link href="bootstrap.css" rel="stylesheet" />
+  <script src="bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+
+
+<img class="contato" src="contato.png" alt="">
+<a href="index.html">
+<h3 class="voltar">Voltar</h3>
+</a>
+<div class="container">
+
+
+<!-- corpo -->
+<div class="main" style="">
+
+      <div>
+        <p><strong style="color:black;">mail:</strong>
+        <br>keelscorreia@hotmail.com <br></p>
+      </div>
+
+      <div>
+        <p><strong style="color:black;">telefone:</strong>
+        <br> (11) 94809.9768</p>
+      </div>
+
+      <div>
+        <p><a style=" font-size: 14pt;" href="CV_RAQUEL_CORREIA.pdf" target="_blank" >currículo</a></p>
+      </div>
+
+      <div>
+        <p><strong style="color: black;">endereço:</strong>
+        <br> São Paulo, SP</p>
+      </div>
+
+      <div>
+        <p><strong style="color:black; font-size: 14pt;">redes sociais:</strong>
+        <br> <a href="https://www.linkedin.com/in/keelscorreia" target="_blank">linkedin</a></p>
+      </div>
+
+</div>
+
+<div class="line"></div>
+
+</div>
+</body>
+
+<style>
+.contato{
+  z-index: -1;
+  height: 100%;
+  right: 0px;
+  position: fixed;
+}
+
+.voltar{
+  font-family: 'allright';
+  font-size: 28pt;
+  color: black;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+}
+
+.line{
+  background-color: black;
+  height: 1px;
+  width: 40%;
+  right: 0px;
+  left: 15%;
+  margin: auto;
+  position: fixed;
+}
+
+
+body{
+  background-color: rgb(241, 233, 222);
+}
+
+.main{
+  padding-top: 30%;
+  padding-left: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+p {
+  margin: 20px;
+  font-size: 14pt;
+  color: rgba(94,93,93,1);
+}
+
+a{
+  color:red;
+}
+
+  @media screen and (max-width:600px) {
+
+    .contato{
+opacity: 0%;
+    }
+
+    .main{
+      width: 100%;
+      padding-top: 50%;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: 1fr ;
+    }
+
+    .line{
+      background-color: black;
+      height: 1px;
+      width: 80%;
+      right: 0px;
+      left: 0%;
+      margin: auto;
+      position: fixed;
+    }
+
+
+      .voltar{
+        font-family: 'allright';
+        font-size: 20pt;
+        color: black;
+        position: fixed;
+        top: 30px;
+        left: 30px;
+        width: 100px;
+      }
+}
+
+
+</body>
+</html>
