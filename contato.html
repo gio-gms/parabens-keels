@@ -19,7 +19,7 @@
   <link href="style.css" rel="stylesheet" />
 
 
-<img class="contato" src="contato.png" alt="">
+<h1>Contato*</h1>
 <a href="index.html">
 <h3 class="voltar">Voltar</h3>
 </a>
@@ -99,7 +99,16 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
+    
+h1{
+  font-family: 'allright';
+  font-size: 280pt;
+  color: black;
+  bottom: -180px;
+  right: 100px;
+  position: fixed;
+}
+    
 p {
   margin: 20px;
   font-size: 14pt;
@@ -112,8 +121,11 @@ a{
 
   @media screen and (max-width:600px) {
 
-    .contato{
-opacity: 0%;
+     h1 {
+      font-size: 40pt;
+      bottom: -30px;
+      left: 25%;
+      position: fixed;
     }
 
     .main{
